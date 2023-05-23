@@ -16,6 +16,6 @@ Whenever you need to access your container's shell
 3. `docker exec -it $USER-ubuntu-container bash`
 
 After a reboot, you would need to start your container again:
-`docker start ubuntu-container`
+`docker start $(whoami)-ubuntu-container`
 
 
