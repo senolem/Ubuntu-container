@@ -5,7 +5,7 @@ Dockerfile using latest ubuntu image coming with a few essential packages.
 ## How to use
 Where your Dockerfile is
 
-1. `docker build -t $(whoami)/ubuntu-container .`
+1. `docker build -t $(USER)/ubuntu-container .`
 
 Where you want your container to have shared access to your disk
 
